@@ -15,12 +15,6 @@
 
 ![HorizontalView](https://github.com/yarolegovich/DiscreteScrollView/blob/master/images/cards_shop.gif)
 
-## Gradle 
-Add this into your dependencies block.
-```
-compile 'com.yarolegovich:discrete-scrollview:1.4.9'
-```
-
 
 ## 示例
 
