@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- <item name="android:background">?attr/colorPrimary</item>-->
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="ab_statusBarMode">dark</item><!--状态栏图标颜色模式，默认light-->
+        <item name="ab_bottomLineHeight">0.5dp</item><!--底部分割线高度，默认为0dp-->
+        <item name="ab_bottomLineResId">@color/Grey200</item>
+        <item name="ab_statusBarColor">@color/transparent</item><!--状态栏颜色，默认透明-->
+        <item name="ab_titleBarHeight">48dp</item>
+    </style>
+    <style name="ActionBar.Common">
+        <item name="abc_titleTextColor">@color/black</item>
+        <item name="abc_titleTextSize">18dp</item>
+        <item name="abc_leftIconColor">@color/black</item>
+        <item name="abc_leftIconPadding">13dp</item>
+        <item name="abc_leftIconMarginLeft">3dp</item>
+        <item name="abc_leftTextColor">@color/black</item>
+        <item name="abc_rightIconColor">@color/black</item>
+        <item name="abc_rightIconPadding">13dp</item>
+        <item name="abc_rightIconMarginRight">3dp</item>
+        <item name="abc_rightTextColor">@color/black</item>
+    </style>
+    <declare-styleable name="TitleView">
+        <attr name="titleViewText" format="string|reference" />
+        <attr name="titleViewTextSize" format="dimension" />
+        <attr name="titleViewTextColor" format="color|reference" />
+        <attr name="titleViewBackground" format="color|reference" />
+        <attr name="titleViewLineColor" format="color|reference" />
+    </declare-styleable>
+</resources>
