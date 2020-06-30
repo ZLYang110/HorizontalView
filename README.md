@@ -22,10 +22,10 @@ compile 'com.yarolegovich:discrete-scrollview:1.4.9'
 ```
 
 
-## Sample
-![anylayer.gif](https://github.com/goweii/AnyLayer/blob/master/picture/Screenshot_1.jpg?raw=true)
+## 示例
+![anylayer.gif](https://github.com/ZLYang110/HorizontalView/tree/master/screenshot/Screenshot_1.jpg?raw=true)
 
-<img src="https://github.com/ZLYang110/UpperDialog/raw/master/screenshot/Screenshot_1.jpg" width = "180" height = "300" alt="图片名称"/><img src="https://github.com/ZLYang110/UpperDialog/raw/master/screenshot/Screenshot_2.jpg" width = "180" height = "300" alt="图片名称"/>
+<img src="https://github.com/ZLYang110/HorizontalView/tree/master/screenshot/Screenshot_1.jpg" width = "180" height = "300" alt="图片名称"/><img src="https://github.com/ZLYang110/HorizontalView/tree/master/screenshot/Screenshot_2.jpg" width = "180" height = "300" alt="图片名称"/>
 
 ## Wiki
 
@@ -55,7 +55,8 @@ allprojects {
 // build.gradle(Module:)
 dependencies {
 
-   implementation 'com.github.ZLYang110:UpperDialog:1.3'
+  implementation 'com.github.ZLYang110:HorizontalView:1.0'
+
 }
 ```
 ## 使用
@@ -68,7 +69,7 @@ dependencies {
             android:id="@+id/item_picker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-  app:dsv_orientation="horizontal|vertical" />  <！-方向是可选，默认为水平->
+      />
 ```
 ```java
  private InfiniteScrollAdapter infiniteAdapter;
@@ -103,13 +104,13 @@ scrollView.smoothScrollToPosition(int position); //通过动画滚动到指定�
 scrollView.setItemTransitionTimeMillis(int millis); //同股票滚动所需时间
 
 
-cityPicker.setItemTransformer(new ScaleTransformer.Builder()
+scrollView.setItemTransformer(new ScaleTransformer.Builder()
   .setMaxScale(1.05f)
   .setMinScale(0.8f)
   .setPivotX(Pivot.X.CENTER) // CENTER is a default one
   .setPivotY(Pivot.Y.BOTTOM) // CENTER is a default one
   .build());
-
+```
 
 #### 滑动多个项目
 
@@ -123,12 +124,12 @@ scrollView.setSlideOnFlingThreshold(value);
 ```
 
 #### 无限滚动
-Infinite scroll is implemented on the adapter level:
+无限滚动在适配器级别实现：
 ```java
 InfiniteScrollAdapter wrapper = InfiniteScrollAdapter.wrap(yourAdapter);
 scrollView.setAdapter(wrapper);
 ```
-An instance of `InfiniteScrollAdapter` has the following useful methods:
+实例InfiniteScrollAdapter具有以下有用的方法：
 ```java
 int getRealItemCount();
 
@@ -144,7 +145,7 @@ int getRealPosition(int position);
  */
 int getClosestPosition(int position); 
 ```
-当前InfiniteScrollAdapter处理数据集更改的效率很低
+当前InfiniteScrollAdapter处理数据集 效率很低请放心使用
 
 #### 回调状态
 * 滚动状态回调
@@ -201,7 +202,12 @@ Thanks to [DiscreteScrollView](https://github.com/yarolegovich/DiscreteScrollVie
 
 
 ## 联系方式
-QQ 1833309873
+
+QQ： 1833309873
+E-mail: 1833309873@QQ.com
+
+## 最后
+## 给个star吧！！！！
 
 
 ## License

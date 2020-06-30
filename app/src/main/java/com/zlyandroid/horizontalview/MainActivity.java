@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.ll_user:
                 Intent intent =new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://www.xloong.com/"));
+                intent.setData(Uri.parse("https://github.com/ZLYang110/HorizontalView"));
                 startActivity(intent);
                 break;
 
