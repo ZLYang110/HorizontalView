@@ -13,7 +13,7 @@
 5. 内有滑动动画，可设置滑动动画时长。
 
 
-![GifSampleShop](https://github.com/yarolegovich/DiscreteScrollView/blob/master/images/cards_shop.gif)
+![HorizontalView](https://github.com/yarolegovich/DiscreteScrollView/blob/master/images/cards_shop.gif)
 
 ## Gradle 
 Add this into your dependencies block.
@@ -23,7 +23,7 @@ compile 'com.yarolegovich:discrete-scrollview:1.4.9'
 
 
 ## 示例
-![anylayer.gif](https://github.com/ZLYang110/HorizontalView/tree/master/screenshot/Screenshot_1.jpg?raw=true)
+![HorizontalView](https://github.com/ZLYang110/HorizontalView/blob/master/screenshot/Screenshot_1.jpg?raw=true)
 
 <img src="https://github.com/ZLYang110/HorizontalView/tree/master/screenshot/Screenshot_1.jpg" width = "180" height = "300" alt="图片名称"/><img src="https://github.com/ZLYang110/HorizontalView/tree/master/screenshot/Screenshot_2.jpg" width = "180" height = "300" alt="图片名称"/>
 
