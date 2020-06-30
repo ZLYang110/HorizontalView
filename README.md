@@ -24,7 +24,7 @@ compile 'com.yarolegovich:discrete-scrollview:1.4.9'
 
 ## 示例
 
-<img src="https://github.com/ZLYang110/HorizontalView/blob/master/screenshot/Screenshot_1.jpg" width = "180" height = "300" alt="图片名称"/><img src="https://github.com/ZLYang110/HorizontalView/blob/master/screenshot/Screenshot_2.jpg" width = "180" height = "300" alt="图片名称"/>
+<img src="https://github.com/ZLYang110/HorizontalView/blob/master/screenshot/Screenshot_1.jpg" width = "180" height = "320" alt="图片名称"/>       <img src="https://github.com/ZLYang110/HorizontalView/blob/master/screenshot/Screenshot_2.jpg" width = "180" height = "320" alt="图片名称"/>
 
 ## Wiki
 
